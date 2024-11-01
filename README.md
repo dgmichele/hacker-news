@@ -1,4 +1,4 @@
-<h1>Hacker News</h1>
+<h1>HackerNews</h1>
 <p>Questo è il 3° progetto eseguito per il Master in Sviluppo web di Start2impact.</p>
 
 <h2>🤔 Di cosa si tratta?</h2>
