@@ -13,16 +13,16 @@
 
 <h2>🛠️ Struttura del progetto</h2>
 <ul>
-  <li><strong><code>fetchNewsID()</code>:</strong>Recupera l'elenco degli ID delle ultime notizie.</li>
-  <li><strong><code>fetchNewsDetails()</code>:</strong>Per ogni ID, ottiene i dettagli della notizia come titolo, data e link.</li>
-  <li><strong><code>loadMoreNews()</code>:</strong>Carica e mostra un blocco di 10 notizie alla volta.</li>
-  <li><strong><code>displayNews()</code>:</strong>Crea e visualizza il layout di una singola notizia nel contenitore della pagina.</li>
+  <li><strong><code>fetchNewsID()</code>:</strong> Recupera l'elenco degli ID delle ultime notizie.</li>
+  <li><strong><code>fetchNewsDetails()</code>:</strong> Per ogni ID, ottiene i dettagli della notizia come titolo, data e link.</li>
+  <li><strong><code>loadMoreNews()</code>:</strong> Carica e mostra un blocco di 10 notizie alla volta.</li>
+  <li><strong><code>displayNews()</code>:</strong> Crea e visualizza il layout di una singola notizia nel contenitore della pagina.</li>
 </ul>
 
 <h2>⚙️ Dipendenze</h2>
 <ul>
-  <li><strong>Webpack:</strong>Per la gestione del bundling e delle risorse.</li>
-  <li><strong>Dotenv:</strong>Per la configurazione delle variabili d’ambiente.</li>
+  <li><strong>Webpack:</strong> Per la gestione del bundling e delle risorse.</li>
+  <li><strong>Dotenv:</strong> Per la configurazione delle variabili d’ambiente.</li>
 </ul>
 
 <h2>👨🏻‍💻 Testa il progetto</h2>
