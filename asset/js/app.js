@@ -21,7 +21,9 @@ const updatedNewsBlock = 10;
 async function fetchNewsID() {
     try {
         const response = await fetch(`${urlAPI}/newstories.json`);
-        if (!response.ok) throw new Error("Error in retrieving news list");
+        if (!response.ok) {
+            throw new Error("Error in retrieving news list");
+        }
         
         newsID = await response.json();
         loadMoreNews();  // Carica il primo blocco di news allo start
@@ -34,7 +36,9 @@ async function fetchNewsID() {
 async function fetchNewsDetails(news) {
     try {
         const response = await fetch(`${urlAPI}/item/${news}.json`);
-        if (!response.ok) throw new Error(`Error in retrieving details for news with ID ${news}`);
+        if (!response.ok) {
+            throw new Error(`Error in retrieving details for news with ID ${news}`);
+        } 
         
         const newsData = await response.json();
         displayNews(newsData);  // Visualizziamo la news recuperata
@@ -60,12 +64,13 @@ function displayNews(news) {
 
     const title = document.createElement("h3");
     title.textContent = news.title;
+    
     const link = document.createElement("a");
     link.classList.add("news-button");
     link.href = news.url;
     link.target = "_blank";
     link.rel = "noopener";
-    link.textContent = `Read more↗️`;
+    link.textContent = "Read more ↗️";
 
     const date = document.createElement("p");
     date.classList.add("date");
