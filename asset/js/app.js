@@ -1,5 +1,3 @@
-/* ✏️ VERSIONE CON SOLO LODASH */
-
 import '../css/style.css';
 import logoPath from '../img/Logo.png';
 import _ from 'lodash';  // Importiamo Lodash
